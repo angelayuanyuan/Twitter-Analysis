@@ -1,0 +1,13 @@
+name: shinyapp
+title: shinyapp
+username:
+account: angelayuanyuan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 244366
+bundleId: 1138841
+url: https://angelayuanyuan.shinyapps.io/shinyapp/
+when: 1513478441.01463
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: logo.jpg
