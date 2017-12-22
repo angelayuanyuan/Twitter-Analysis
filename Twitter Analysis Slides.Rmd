@@ -1,0 +1,77 @@
+---
+title: "Twitter Analysis"
+author: "Angela"
+date: "12/15/2017"
+output: ioslides_presentation
+---
+
+---
+title: "Twitter Analysis"
+author: "Angela"
+date: "12/15/2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Twitter Analysis
+This is a project of using shiny apps to demonstrate a twitter analysis.
+
+In this slides, I am going to walk you through what I did in the shiny app, but you could also feel free to explore it by yourself!
+
+https://angelayuanyuan.shinyapps.io/shinyapp/
+
+## 1. Intro
+
+Our Topic: How do people on Twitter react to Kevin Spacey's sex assualting scandals?
+
+If you are not familiar with the background story, here is a link to a brief news report.
+
+http://www.cnn.com/2017/10/30/entertainment/kevin-spacey-allegations-anthony-rapp/index.html
+
+## 2. Data Manipulation
+
+### Get Twitter Data
+
+- *Key Word: @KevinSpacey*
+
+- *English tweets only*
+
+
+### Text Cleaning
+
+- *Remove symbols*
+
+- *Remove punctuations*
+
+- *Remove stopwords including our customized stopwords* 
+
+
+## 3. Text Analysis
+
+***what is the most used word in these tweets?***
+<br>
+
+<img src="wordcloud.1.png" height="450px" width="600px" >
+
+
+
+## 4. Sentiment Analysis
+
+***How do people feel when they discuss the news?***
+
+<img src="sentiment.png" height="450px" width="700px" >
+
+
+## Any positive words?
+
+<img src="p.png" height="450px" width="800px" >
+
+
+## Any negative words?
+
+<img src="n.png" height="450px" width="800px" >
