@@ -1,0 +1,87 @@
+---
+title: "Twitter Analysis"
+author: "Angela"
+date: "12/15/2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Twitter Analysis
+This is a project of using shiny apps to demonstrate a twitter analysis.
+
+In this readme file, I am going to walk you through what I did in the shiny app, but you could also feel free to explore it by yourself!
+
+https://angelayuanyuan.shinyapps.io/shinyapp/
+
+## 1. Intro
+
+Our Topic: How do people on Twitter react to Kevin Spacey's sex assualting scandals?
+
+If you are not familiar with the background story, here is a link to a brief news report.
+
+http://www.cnn.com/2017/10/30/entertainment/kevin-spacey-allegations-anthony-rapp/index.html
+
+## 2. Data Manipulation
+
+### Get Twitter Data
+
+- *Key Word: @KevinSpacey*
+
+- *English tweets only*
+
+
+### Text Cleaning
+
+- *Remove symbols*
+
+- *Remove punctuations*
+
+- *Remove stopwords including our customized stopwords* 
+
+
+## 3. Text Analysis
+
+On the shiny app, you could actually take a look at what people were tweeting about by yourself.
+
+Here, we explore ***what is the most used word in these tweets?***
+<br>
+
+![wordcloud](wordcloud.1.png)
+
+<br>
+<br>
+
+Okay, I shall admit, ***House of Cards*** is a really popular show.
+
+However, what's our president doing over here??
+
+To find out, go ahead and search his name in the ***Search*** column in the shiny app!!
+
+
+## 4. Sentiment Analysis
+
+***How do people feel when they discuss the news?***
+
+![sentiment](sentiment.png)
+<br>
+
+***Any positive words?***
+
+<div style="width:50px; height=50px">
+![positive](p.png)
+</div>
+
+
+<br>
+
+***Any negative words?***
+
+<div style="width:50px; height=50px">
+![negative](n.png)
+</div>
+
